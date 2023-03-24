@@ -38,19 +38,12 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#FbsGirl #FbsBoy #FbsAsk #FbsFind #FbsSpill #FbsStory").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/0d5a174c3dd2a156d02e8.jpg")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/a26cef38c65c132d555a5.jpg")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/a26cef38c65c132d555a5.jpg")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/0d5a174c3dd2a156d02e8.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat Mengirim, Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
-start_msg = os.environ.get("START_MSG", """
-Hai {fullname} 🌱\n\nIni adalah bot menfess ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. Sesuai rules ya efbees:
-#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll
-#FbsAsk untuk Bertanya
-#FbsStory untuk Berbagi Cerita
-#FbsSpill untuk Spill Masalah
-#FbsFind untuk Mencari Pasangan, Teman, Partner dll
-""")
+pesan_join = os.environ.get("PESAN_JOIN", "{mention} Tidak dapat Mengirim, Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot FWB BASE SXID ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll\n#FbsAsk untuk Bertanya\n#FbsStory untuk Berbagi Cerita\n#FbsSpill untuk Spill Masalah\n#FbsFind untuk Mencari Pasangan, Teman, Partner dll\n\nFor Top Up Coin or Question Contact @Arabnihnge")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
