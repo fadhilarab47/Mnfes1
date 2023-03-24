@@ -43,7 +43,15 @@ pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/a26cef38c65c132d
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat Mengirim, Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /status")
+menu_msg = os.environ.get("MENU_MSG","""
+#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll
+#FbsAsk untuk Bertanya
+#FbsStory untuk Berbagi Cerita
+#FbsSpill untuk Spill Masalah
+#FbsFind untuk Mencari Pasangan, Teman, Partner dll
+""")
+Wajib menyertakan username ya""")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
