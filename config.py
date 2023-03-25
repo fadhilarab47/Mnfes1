@@ -17,7 +17,7 @@ channel_log = int(os.environ.get("CHANNEL_LOG", "-1001554653997"))
 id_admin = int(os.environ.get("ID_ADMIN", "1345594412"))
 # =========================================================== #
 
-batas_kirim = int(os.environ.get("BATAS_KIRIM", "1"))
+batas_kirim = int(os.environ.get("BATAS_KIRIM", "2"))
 batas_talent = int(os.environ.get("BATAS_TALENT", "15"))
 batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
 batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
@@ -35,15 +35,15 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#FbsGirl #FbsBoy #FbsAsk #FbsFind #FbsSpill #FbsStory").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#FbsBoy #FbsGirl #FbsAsk #FbsFind #FbsSpill #FbsStory").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/a26cef38c65c132d555a5.jpg")
 pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/0d5a174c3dd2a156d02e8.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "{mention} Tidak dapat Mengirim, Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot FWB BASE SXID ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll\n#FbsAsk untuk Bertanya\n#FbsStory untuk Berbagi Cerita\n#FbsSpill untuk Spill Masalah\n#FbsFind untuk Mencari Pasangan, Teman, Partner dll\n\nFor Top Up Coin or Question Contact @Arabnihnge")
+pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Efbees\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} Sobat Efbees\n\nIni adalah bot FWB BASE SXID ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll\n#FbsAsk untuk Bertanya\n#FbsStory untuk Berbagi Cerita\n#FbsSpill untuk Spill Masalah\n#FbsFind untuk Mencari Pasangan, Teman, Partner dll\n\nContoh:\n{mention} Cari Mutualan Dom Depok #FbsFind/nFor Top Up Coin or Question Contact Arabnihnge.t.me")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
