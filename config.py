@@ -10,14 +10,14 @@ db_name = os.environ.get("DB_NAME", "fadhil")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001809708760"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001537697834"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001595153834"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001554653997"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "1345594412"))
 # =========================================================== #
 
-batas_kirim = int(os.environ.get("BATAS_KIRIM", "2"))
+batas_kirim = int(os.environ.get("BATAS_KIRIM", "1"))
 batas_talent = int(os.environ.get("BATAS_TALENT", "15"))
 batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
 batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
