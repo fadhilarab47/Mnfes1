@@ -38,12 +38,12 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#FbsBoy #FbsGirl #FbsAsk #FbsFind #FbsSpill #FbsStory").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/a26cef38c65c132d555a5.jpg")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/0d5a174c3dd2a156d02e8.jpg")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/fe9fc4a43f2aab908ce73.jpg")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/1371e7e3214d71e2bc540.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Efbees\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} Sobat Efbees\n\nIni adalah bot FWB BASE SXID ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll\n#FbsAsk untuk Bertanya\n#FbsStory untuk Berbagi Cerita\n#FbsSpill untuk Spill Masalah\n#FbsFind untuk Mencari Pasangan, Teman, Partner dll\n\nContoh:\n{mention} Cari Mutualan Dom Depok #FbsFind/nFor Top Up Coin or Question Contact Arabnihnge.t.me")
+pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Efbees😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees👍")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} Sobat Efbees✨\n\nIni adalah bot FWB BASE SXID ya Efbees, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FbsBoy / #FbsGirl untuk Mencari Pasangan, Teman , Partner dll\n#FbsAsk untuk Bertanya\n#FbsStory untuk Berbagi Cerita\n#FbsSpill untuk Spill Masalah\n#FbsFind untuk Mencari Pasangan, Teman, Partner dll\n\nContoh:\n{mention} Cari Mutualan Dom Depok #FbsFind/n🎫For Top Up Coin or Question Contact Arabnihnge.t.me")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
