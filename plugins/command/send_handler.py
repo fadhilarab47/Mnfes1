@@ -65,6 +65,9 @@ async def send_menfess_handler(client: Client, msg: types.Message):
             else:
                 return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian., kamu dapat mengirim menfess kembali pada hari esok.\n\n waktu reset jam 1 pagi', quote=True)
 
+        if menfess >= db_user.status in ['talent']
+            picture = config.pic_talent
+      
         link = await get_link()
         kirim = await client.copy_message(config.channel_1, msg.from_user.id, msg.id)
         await helper.send_to_channel_log(type="log_channel", link=link + str(kirim.id))
