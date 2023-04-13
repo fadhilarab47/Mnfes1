@@ -25,7 +25,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_girl
         elif key == hastag[1]:
             picture = config.pic_boy
-       if client == db_user.status in ['talent']:
+        if str == db_user.status in ['talent']:
             picture = config.pic_talent
             
         link = await get_link()
