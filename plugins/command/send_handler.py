@@ -25,7 +25,9 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_girl
         elif key == hastag[1]:
             picture = config.pic_boy
-
+       if client == db_user.status in ['talent']:
+            picture = config.pic_talent
+            
         link = await get_link()
         caption = msg.text or msg.caption
         entities = msg.entities or msg.caption_entities
@@ -65,8 +67,6 @@ async def send_menfess_handler(client: Client, msg: types.Message):
             else:
                 return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian., kamu dapat mengirim menfess kembali pada hari esok.\n\n waktu reset jam 1 pagi', quote=True)
 
-        if menfess >= db_user.status in ['talent']:
-            picture = config.pic_talent
       
         link = await get_link()
         kirim = await client.copy_message(config.channel_1, msg.from_user.id, msg.id)
