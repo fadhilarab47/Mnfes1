@@ -41,6 +41,8 @@ hastag = os.environ.get("HASTAG", "#FbsGirl #FbsBoy #FbsAsk #FbsFind #FbsSpill #
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/fe9fc4a43f2aab908ce73.jpg")
 pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/1371e7e3214d71e2bc540.jpg")
 pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/9dcd3499116577cafc691.jpg")
+pic_bf_rent = os.environ.get("PIC_BF_RENT", "https://telegra.ph//file/0fb34e60c5a840fa9d181.jpg")
+pic_gf_rent = os.environ.get("PIC_GF_RENT", "https://telegra.ph//file/8b0d16b2cf3ccb83a305a.jpg")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Efbees😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Efbees👍")
