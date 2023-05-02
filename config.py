@@ -38,9 +38,9 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "5000"))
 hastag = os.environ.get("HASTAG", "#strgirl #strboy #strcurhat #strrandom #strrandom #strrate #strask #strpap").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/photo-05-02-3")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/strtalent-05-02")
-pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph/strboy-05-02")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/strboy-05-02")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/photo-05-02-3")
+pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph/strtalent-05-02"")
 pic_bf_rent = os.environ.get("PIC_BF_RENT", "")
 pic_gf_rent = os.environ.get("PIC_GF_RENT", "")
 # =========================================================== #
