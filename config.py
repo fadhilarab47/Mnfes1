@@ -38,11 +38,11 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "5000"))
 hastag = os.environ.get("HASTAG", "#strboy #strgirl #strcurhat #strrandom #strrandom #strrate #strask").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/photo-05-02-3")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/strtalent-05-02")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/strboy-05-02")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/photo-05-02-3")
 pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph/strtalent-05-02")
-pic_bf_rent = os.environ.get("PIC_BF_RENT", "0")
-pic_gf_rent = os.environ.get("PIC_GF_RENT", "0")
+pic_bf_rent = os.environ.get("PIC_BF_RENT", "")
+pic_gf_rent = os.environ.get("PIC_GF_RENT", "")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat STR😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya STR👍")
