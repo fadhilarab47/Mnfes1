@@ -35,7 +35,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "5000"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "5000"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#strgirl #strboy #strcurhat #strrandom #strrandom #strrate #strask #strpap").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#strboy #strgirl #strcurhat #strrandom #strrandom #strrate #strask #strpap").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/photo-05-02-3")
