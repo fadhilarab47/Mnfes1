@@ -10,7 +10,7 @@ db_name = os.environ.get("DB_NAME", "DBMenfes")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001894348982"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001542869898"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001702891215"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001794397555"))
 # =========================================================== #
 
