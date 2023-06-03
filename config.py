@@ -2,19 +2,19 @@ import os
 
 api_id = int(os.environ.get("API_ID", "11496628"))
 api_hash = os.environ.get("API_HASH", "3dfd4ab14279d43dee1f5fd1051ce406")
-bot_token = os.environ.get("BOT_TOKEN", "6014419825:AAHpJyE0zLh_HOiQnjYfEB4SZCH6yicuVMg")
+bot_token = os.environ.get("BOT_TOKEN", "6175734197:AAHu0OTNJQ_P7o0t4jhi8_uEQ-eH3wip_Ng")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://DBMenfes:Menfes123@cluster0.gapivtq.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "DBMenfes")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001894348982"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001702891215"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001794397555"))
+channel_1 = int(os.environ.get("CHANNEL_1", ""))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001500631464"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001971424094"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "1998691839"))
+id_admin = int(os.environ.get("ID_ADMIN", "1918494942"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
@@ -46,7 +46,7 @@ pic_gf_rent = os.environ.get("PIC_GF_RENT", "")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat STR😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya STR👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post stopover base✨\n\nIni adalah bot Menfes ya STR, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#strboy / #strgirl untuk Mencari Pasangan, Teman , Partner dll\n#strask untuk Bertanya\n#strcurhat untuk Berbagi Cerita\n#strpap untuk ngirim pap kecuali pap kemaluan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #strgril/n Contact @onefled")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post stopover base✨\n\nIni adalah bot Menfes ya STR, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#strboy / #strgirl untuk Mencari Pasangan, Teman , Partner dll\n#strask untuk Bertanya\n#strcurhat untuk Berbagi Cerita\n#strpap untuk ngirim pap kecuali pap kemaluan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #strgril/n Contact @ejistr")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
