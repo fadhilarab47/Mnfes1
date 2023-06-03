@@ -5,11 +5,11 @@ api_hash = os.environ.get("API_HASH", "3dfd4ab14279d43dee1f5fd1051ce406")
 bot_token = os.environ.get("BOT_TOKEN", "6175734197:AAHu0OTNJQ_P7o0t4jhi8_uEQ-eH3wip_Ng")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://DBMenfes:Menfes123@cluster0.gapivtq.mongodb.net/?retryWrites=true&w=majority")
-db_name = os.environ.get("DB_NAME", "DBMenfes")
+db_url = os.environ.get("DB_URL", "mongodb+srv://Menfes2:fadhil123@cluster0.bfmxnz4.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.environ.get("DB_NAME", "Menfes2")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", ""))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001894348982"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1001500631464"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001971424094"))
 # =========================================================== #
