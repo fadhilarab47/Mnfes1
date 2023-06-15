@@ -1,7 +1,7 @@
 import os
 
-api_id = int(os.environ.get("API_ID", ""))
-api_hash = os.environ.get("API_HASH", "")
+api_id = int(os.environ.get("API_ID", "11787042"))
+api_hash = os.environ.get("API_HASH", "876921081a7f203868b675f833ba96e7")
 bot_token = os.environ.get("BOT_TOKEN", "6032415317:AAHsIZZK8nBcJ7ng-ytXzEkqtPDkpD4iQYs")
 # =========================================================== #
 
@@ -11,7 +11,7 @@ db_name = os.environ.get("DB_NAME", "Menfes2")
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001976239415"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1001500631464"))
-channel_log = int(os.environ.get("CHANNEL_LOG", ""))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001684568256"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "1998691839"))
