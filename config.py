@@ -5,8 +5,8 @@ api_hash = os.environ.get("API_HASH", "301a39af78de73406a67c75ad7dd7301")
 bot_token = os.environ.get("BOT_TOKEN", "6196461165:AAFZ0fX5-F2gMb0JNQauTJma2ljHRwyiEeU")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "garmenfes")
-db_name = os.environ.get("DB_NAME", "mongodb+srv://garmenfes:fadhil123@cluster0.psjzpkc.mongodb.net/?retryWrites=true&w=majority")
+db_url = os.environ.get("DB_URL", "Menfes03")
+db_name = os.environ.get("DB_NAME", "mongodb+srv://Menfes03:fadhil12345@cluster0.psjzpkc.mongodb.net/?retryWrites=true&w=majority")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001509543098"))
@@ -41,8 +41,8 @@ hastag = os.environ.get("HASTAG", "#fwbcantik #fwbganteng #fwbgalau #fwbrandom #
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/ab262a6eed7b5e4879ae3.jpg")
 pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/f189097501089f5cc38dd.jpg")
 pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/30c3b445e0c33c90cb0b6.jpg")
-pic_bf_rent = os.environ.get("PIC_BF_RENT", "")
-pic_gf_rent = os.environ.get("PIC_GF_RENT", "")
+pic_bf_rent = os.environ.get("PIC_BF_RENT", "0")
+pic_gf_rent = os.environ.get("PIC_GF_RENT", "0")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat FWB😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya FWB👍")
