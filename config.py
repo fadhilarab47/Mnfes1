@@ -5,8 +5,8 @@ api_hash = os.environ.get("API_HASH", "301a39af78de73406a67c75ad7dd7301")
 bot_token = os.environ.get("BOT_TOKEN", "6196461165:AAFZ0fX5-F2gMb0JNQauTJma2ljHRwyiEeU")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "")
-db_name = os.environ.get("DB_NAME", "")
+db_url = os.environ.get("DB_URL", "garmenfes")
+db_name = os.environ.get("DB_NAME", "mongodb+srv://garmenfes:fadhil123@cluster0.psjzpkc.mongodb.net/?retryWrites=true&w=majority")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001509543098"))
