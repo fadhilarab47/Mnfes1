@@ -1,24 +1,24 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "11787042"))
-api_hash = os.environ.get("API_HASH", "876921081a7f203868b675f833ba96e7")
-bot_token = os.environ.get("BOT_TOKEN", "6032415317:AAHsIZZK8nBcJ7ng-ytXzEkqtPDkpD4iQYs")
+api_id = int(os.environ.get("API_ID", "22108820"))
+api_hash = os.environ.get("API_HASH", "301a39af78de73406a67c75ad7dd7301")
+bot_token = os.environ.get("BOT_TOKEN", "6196461165:AAFZ0fX5-F2gMb0JNQauTJma2ljHRwyiEeU")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://Menfes2:fadhil123@cluster0.bfmxnz4.mongodb.net/?retryWrites=true&w=majority")
-db_name = os.environ.get("DB_NAME", "Menfes2")
+db_url = os.environ.get("DB_URL", "")
+db_name = os.environ.get("DB_NAME", "")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001976239415"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001500631464"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001774113558"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001509543098"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001956779347"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001964399865"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "1998691839"))
+id_admin = int(os.environ.get("ID_ADMIN", "5799212681"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
-batas_talent = int(os.environ.get("BATAS_TALENT", "6"))
+batas_talent = int(os.environ.get("BATAS_TALENT", "15"))
 batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
 batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
 batas_moansboy = int(os.environ.get("BATAS_MOANSBOY", "10"))
@@ -26,36 +26,36 @@ batas_gfrent = int(os.environ.get("BATAS_GFRENT", "10"))
 batas_bfrent = int(os.environ.get("BATAS_BFRENT", "10"))
 # =========================================================== #
 
-biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "10"))
-biaya_talent = int(os.environ.get("BIAYA_TALENT", "5000"))
-biaya_daddy_sugar = int(os.environ.get("BIAYA_DADDY_SUGAR", "5000"))
-biaya_moansgirl = int(os.environ.get("BIAYA_MOANSGIRL", "5000"))
-biaya_moansboy = int(os.environ.get("BIAYA_MOANSBOY", "5000"))
-biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "5000"))
-biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "5000"))
+biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "100"))
+biaya_talent = int(os.environ.get("BIAYA_TALENT", "500"))
+biaya_daddy_sugar = int(os.environ.get("BIAYA_DADDY_SUGAR", "500"))
+biaya_moansgirl = int(os.environ.get("BIAYA_MOANSGIRL", "500"))
+biaya_moansboy = int(os.environ.get("BIAYA_MOANSBOY", "500"))
+biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "500"))
+biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "500"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#strboy #strgirl #strcurhat #strrandom #strrandom #strrate #strask #strpap").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#fwbcantik #fwbganteng #fwbgalau #fwbrandom #fwbpap #fwbkepo").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/photo-05-02-3")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/strboy-05-02")
-pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph/strtalent-05-02")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/24856954ee2f5251a03d2.jpg")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/67fb2e316efa4cab2a310.jpg")
+pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/59954dee92b199c305423.jpg")
 pic_bf_rent = os.environ.get("PIC_BF_RENT", "")
 pic_gf_rent = os.environ.get("PIC_GF_RENT", "")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat STR😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya STR👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post stopover base✨\n\nIni adalah bot Menfes ya STR, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#strboy / #strgirl untuk Mencari Pasangan, Teman , Partner dll\n#strask untuk Bertanya\n#strcurhat untuk Berbagi Cerita\n#strpap untuk ngirim pap kecuali pap kemaluan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #strgril/n Contact @onefled")
+pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat FWB😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya FWB👍")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post FWB base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#fwbrandom Untuk Random\n#fwbkepo untuk Bertanya\n#fwbgalau untuk Berbagi Cerita\n#fwbpap untuk ngirim pap kecuali pap kemaluan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #fwbganteng/n Contact @chloppii")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
 
-#strgirl Untuk Cewek
-#strboy Untuk Cowok
-#strcurhat Untuk Curhat
-#strrandom Untuk Random
-#strask Bertanya
-#strpap untuk pap rate kecuali pap kemaluan
+#fwbcantik Untuk Cewek
+#fwbganteng Untuk Cowok
+#fwbgalau Untuk Curhat
+#fwbrandom Untuk Random
+#fwbkepo Bertanya
+#fwbpap untuk pap rate kecuali pap kemaluan
 
 """)
