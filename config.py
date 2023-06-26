@@ -46,8 +46,7 @@ pic_gf_rent = os.environ.get("PIC_GF_RENT", "0")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat FWB😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya FWB👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post FWB base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FwbGirl Untuk Cewek\n#FwbBoy Untuk Cowok\n#FwbAsk Untuk Bertanya\n
-#FwbStory Untuk Cerita\n#FwbSpill Untuk Spill\n#FwbFind untuk Mencari Pasangan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #FwbGirl/n Contact @OWNERMIKU")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post FWB base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FwbGirl Untuk Cewek\n#FwbBoy Untuk Cowok\n#FwbAsk Untuk Bertanya\n#FwbStory Untuk Cerita\n#FwbSpill Untuk Spill\n#FwbFind untuk Mencari Pasangan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #FwbGirl/n Contact @OWNERMIKU")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
