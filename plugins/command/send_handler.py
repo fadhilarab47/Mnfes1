@@ -19,7 +19,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             if coin >= config.biaya_kirim:
                 coin = user.coin - config.biaya_kirim
             else:
-                return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian⚠️\n kamu dapat mengirim menfess kembali pada hari esok.\n\n Jika Ingin Tetap Mengirim Menfes Akan Dikenakan Biaya 100 Koin⚠️\n\n Untuk Top Up Koin Bisa Menghubungi @OWNERMIKU 💰', quote=True)
+                return await msg.reply(f'🙅🏻‍♀️ post gagal terkirim. kamu hari ini telah mengirim ke menfess sebanyak {menfess}/{config.batas_kirim} kali.serta coin mu kurang untuk mengirim menfess diluar batas harian⚠️\n kamu dapat mengirim menfess kembali pada hari esok.\n\n Jika Ingin Tetap Mengirim Menfes Akan Dikenakan Biaya 100 Koin⚠️\n\n Untuk Top Up Koin Bisa Menghubungi @Mikuchaaann 💰', quote=True)
 
         if key == hastag[0]:
             picture = config.pic_girl
@@ -33,6 +33,8 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_gf_rent
         elif key == hastag[1] and user.status in ['boyfriend rent']:
             picture = config.pic_bf_rent    
+        if key == hastag[1] and user.status in ['sugar daddy']:
+            picture = config.pic_sugar_daddy
             
         link = await get_link()
         caption = msg.text or msg.caption
