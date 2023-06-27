@@ -33,7 +33,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_gf_rent
         elif key == hastag[1] and user.status in ['boyfriend rent']:
             picture = config.pic_bf_rent    
-        if key == hastag[1] and user.status in ['sugar daddy']:
+        if key == hastag[1] and user.status in ['daddy sugar']:
             picture = config.pic_sugar_daddy
             
         link = await get_link()
