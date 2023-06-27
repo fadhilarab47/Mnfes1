@@ -1,20 +1,20 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "12857763"))
-api_hash = os.environ.get("API_HASH", "7b71e8bca0d5e1c6d8383ae818d9ec8d")
-bot_token = os.environ.get("BOT_TOKEN", "6213624396:AAFVscQg0PgmXdX7AcCh8jgWj5DI9kdB8js")
+api_id = int(os.environ.get("API_ID", "21432530"))
+api_hash = os.environ.get("API_HASH", "7108c3b533ab7f1756c70a95a59790f9")
+bot_token = os.environ.get("BOT_TOKEN", "5715747322:AAE3UYscWsd0BJ_6Hv9zcHxCjJzXl4O_Lz0")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://AnakRp:fadhil123@cluster0.p7yaf7z.mongodb.net/")
-db_name = os.environ.get("DB_NAME", "AnakRp")
+db_url = os.environ.get("DB_URL", "mongodb+srv://fadhilubot:fadhil123@cluster0.dxhbmhf.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.environ.get("DB_NAME", "fadhilubot")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001892588505"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001624974363"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001949406995"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001830268921"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001911983930"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001959577065"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "6129133916"))
+id_admin = int(os.environ.get("ID_ADMIN", "6036408604"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
@@ -35,27 +35,27 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "500"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "500"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#FwbGirl #FwbBoy #FwbAsk #FwbStory #FwbSpill #FwbFind").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#MikuGirl #MikuBoy #MikuAsk #MikuStory #MikuSpill #MikuFind").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/19ec604009233e6d8997d.jpg")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/705e40a31eaf5d5ff4260.jpg")
-pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/5745935c975255c34a06a.jpg")
-pic_bf_rent = os.environ.get("PIC_BF_RENT", "0")
-pic_gf_rent = os.environ.get("PIC_GF_RENT", "0")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/a6896b2fb8d013b7832e3.jpg")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/a3ad21e5abdeb32deddcf.jpg")
+pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/31aa5b2804691ec04ed9c.jpg")
+pic_bf_rent = os.environ.get("PIC_BF_RENT", "https://telegra.ph//file/8de768f664063f1bb520e.jpg")
+pic_gf_rent = os.environ.get("PIC_GF_RENT", "https://telegra.ph//file/983e3138a5883645497d3.jpg")
+pic_sugar_daddy = os.environ.get("PIC_SUGAR_DADDY", "https://telegra.ph//file/df87a56dfa94043c51572.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat FWB😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya FWB👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post FWB base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#FwbGirl Untuk Cewek\n#FwbBoy Untuk Cowok\n#FwbAsk Untuk Bertanya\n#FwbStory Untuk Cerita\n#FwbSpill Untuk Spill\n#FwbFind untuk Mencari Pasangan\n\nContoh:\n {mention} Cari Mutualan Dom Depok #FwbGirl/n Contact @OWNERMIKU")
+pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Miku😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Miku👍")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post Miku base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#MikuGirl Untuk Cewek\n#MikuBoy Untuk Cowok\n#MikuAsk Untuk Bertanya\n#MikuStory Untuk Cerita\n#MikuSpill Untuk Spill\n#MikuFind untuk Mencari Pasangan\n\nContoh:\n* {mention} Cari Mutualan Dom Depok #MikuGirl*\n\nContact @Mikuchaaann")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
 
-#FwbGirl Untuk Cewek
-#FwbBoy Untuk Cowok
-#FwbAsk Untuk Bertanya
-#FwbStory Untuk Cerita
-#FwbSpill Untuk Spill
-#FwbFind untuk Mencari Pasangan
+#MikuBoy / #MikuGirl Untuk Mencari Pasangan, Teman , Partner FWB
+#MikuAsk Untuk Bertanya
+#MikuStory Untuk Berbagi Cerita
+#MikuSpill Untuk Spill Masalah
+#MikuFind Untuk Mencari Pasangan, Teman, Partner FWB.
 
 """)
