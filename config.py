@@ -47,7 +47,7 @@ pic_sugar_daddy = os.environ.get("PIC_SUGAR_DADDY", "https://telegra.ph//file/df
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Miku😉\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya Miku👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post Miku base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#MikuGirl Untuk Cewek\n#MikuBoy Untuk Cowok\n#MikuAsk Untuk Bertanya\n#MikuStory Untuk Cerita\n#MikuSpill Untuk Spill\n#MikuFind untuk Mencari Pasangan\n\nContoh:\n* {mention} Cari Mutualan Dom Depok #MikuGirl*\n\nContact @Mikuchaaann")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post Miku base✨\n\nIni adalah bot Menfes ya FWB, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#MikuGirl Untuk Cewek\n#MikuBoy Untuk Cowok\n#MikuAsk Untuk Bertanya\n#MikuStory Untuk Cerita\n#MikuSpill Untuk Spill\n#MikuFind untuk Mencari Pasangan\n\nContoh:\n{mention} Cari Mutualan Dom Depok #MikuGirl\n\nContact @Mikuchaaann")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
