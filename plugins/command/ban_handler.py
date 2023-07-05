@@ -38,7 +38,7 @@ async def ban_handler(client: Client, msg: types.Message):
     alasan = "-" if len(text_split) <= 2 else text_split[2]
     await db.banned_user(int(target), client.id_bot, alasan)
     return await msg.reply_text(
-        text=f"<a href='tg://openmessage?user_id={str(target)}'>User</a> <i>berhasil dibanned oleh Admin unban hubungi : @Mikuchaaann</i>\n└Dibanned oleh : <a href='tg://openmessage?user_id={str(config.id_admin)}'>Admin</a>\n Buka Ban Hub: @Mikuchaaann\n\nAlasan: {str(alasan)}\n\n{update}", quote=True,
+        text=f"<a href='tg://openmessage?user_id={str(target)}'>User</a> <i>berhasil dibanned oleh Admin unban hubungi : @Mikuchannn</i>\n└Dibanned oleh : <a href='tg://openmessage?user_id={str(config.id_admin)}'>Admin</a>\n Buka Ban Hub: @Mikuchannn\n\nAlasan: {str(alasan)}\n\n{update}", quote=True,
         parse_mode=enums.ParseMode.HTML
     )
 
