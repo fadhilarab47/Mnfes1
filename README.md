@@ -1,15 +1,10 @@
 # alterbase telegram
  
 ### Installation
-#### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cepheidev/alterbase-telegram)</br>
-
-#### Deploy on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/cepheidev/alterbase-telegram/
+git clone https://github.com/fadhilarab47/MenfesFWB
 cd alterbase-telegram
 pip install -r requirements.txt
 python main.py
