@@ -1,20 +1,20 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "21432530"))
-api_hash = os.environ.get("API_HASH", "7108c3b533ab7f1756c70a95a59790f9")
-bot_token = os.environ.get("BOT_TOKEN", "6334086565:AAH2vmKqqbt2MLKYc6fmDkXml2wD3CtGGi0")
+api_id = int(os.environ.get("API_ID", "15890589"))
+api_hash = os.environ.get("API_HASH", "27fe60ebafe8a74117bfae10407925c7")
+bot_token = os.environ.get("BOT_TOKEN", "6518034019:AAF8SmArIfc0DaKfw_KC0uiG0JvoOsefoHc")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://Arab01:fadhil123@cluster0.ul5qaif.mongodb.net/")
 db_name = os.environ.get("DB_NAME", "Arab01")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001830268921"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001756044841"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001939952913"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1002090852874"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1002132564390"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1002070266863"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "6382429496"))
+id_admin = int(os.environ.get("ID_ADMIN", "1506027871"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "3"))
@@ -26,13 +26,13 @@ batas_gfrent = int(os.environ.get("BATAS_GFRENT", "10"))
 batas_bfrent = int(os.environ.get("BATAS_BFRENT", "10"))
 # =========================================================== #
 
-biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "50"))
-biaya_talent = int(os.environ.get("BIAYA_TALENT", "500"))
-biaya_daddy_sugar = int(os.environ.get("BIAYA_DADDY_SUGAR", "500"))
-biaya_moansgirl = int(os.environ.get("BIAYA_MOANSGIRL", "500"))
-biaya_moansboy = int(os.environ.get("BIAYA_MOANSBOY", "500"))
-biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "500"))
-biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "500"))
+biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "30"))
+biaya_talent = int(os.environ.get("BIAYA_TALENT", "200"))
+biaya_daddy_sugar = int(os.environ.get("BIAYA_DADDY_SUGAR", "200"))
+biaya_moansgirl = int(os.environ.get("BIAYA_MOANSGIRL", "200"))
+biaya_moansboy = int(os.environ.get("BIAYA_MOANSBOY", "200"))
+biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "200"))
+biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "200"))
 # =========================================================== #
 
 hastag = os.environ.get("HASTAG", "#MikuGirl #MikuBoy #MikuAsk #MikuStory #MikuSpill #MikuFind").replace(" ", "|").lower()
