@@ -16,20 +16,15 @@ async def start_handler(client: Client, msg: types.Message):
     )
     mention = msg.from_user.mention
     await msg.reply_text(
-        text = f"""
-        Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)
-        
-        Ini adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:
-        #BgGirl Untuk Cewek
-        #BgBoy Untuk Cowok
-        #BgCurhat Untuk Curhat
-        #BgPap Untuk Mengirim Pap Random Kalian
-        
-        Contoh:
-        - {mention} Cari Mutualan Dom Depok @usn #BgGirl
-        
-        Support: @BGMenfes_Update
-        """,
+        text = f"Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)"
+        "\nIni adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:"
+        "\n#BgGirl Untuk Cewek"
+        "\n#BgBoy Untuk Cowok"
+        "\n#BgCurhat Untuk Curhat"
+        "\n#BgPap Untuk Mengirim Pap Random Kalian"
+        "\n\nContoh:"
+        "\n {mention} Cari Mutualan Dom Depok @usn #BgGirl"
+        "\n\nSupport: @BGMenfes_Update",
         id = msg.from_user.id,
         mention = mention,
         username = username,
