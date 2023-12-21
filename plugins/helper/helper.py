@@ -56,7 +56,6 @@ class Helper():
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
         link_2 = await self.bot.export_chat_invite_link(config.channel_2)
         markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton('Group Base I', url=link_3)]
             [InlineKeyboardButton('Channel base', url=link_1), InlineKeyboardButton('Group base II', url=link_2)],
             [InlineKeyboardButton('Coba lagi', url=f'https://t.me/{self.bot.username}?start=start')]
         ])
