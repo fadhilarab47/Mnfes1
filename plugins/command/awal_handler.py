@@ -27,7 +27,7 @@ async def start_handler(client: Client, msg: types.Message):
         {mention} Cari Mutualan Dom Depok @usn #BgGirl
         Support: @BGMenfes_Update"
         """),
-        quote = True
+
         
         
 
