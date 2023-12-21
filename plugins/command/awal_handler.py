@@ -16,20 +16,17 @@ async def start_handler(client: Client, msg: types.Message):
     )
     mention = msg.from_user.mention
     await msg.reply_text(
-        text = f"""
-        Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)
-        Ini adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:
-        #BgGirl Untuk Cewek
-        #BgBoy Untuk Cowok
-        #BgCurhat Untuk Curhat
-        #BgPap Untuk Mengirim Pap Random Kalian
-        Contoh:
-        {mention} Cari Mutualan Dom Depok @usn #BgGirl
-        Support: @BGMenfes_Update"
-        """),
-
-        
-        
+        text = config.start_msg.format(
+            id = msg.from_user.id,
+            mention = mention,
+            username = username,
+            first_name = await helper.escapeHTML(first),
+            last_name = await helper.escapeHTML(last),
+            fullname = await helper.escapeHTML(fullname),
+            ),
+        disable_web_page_preview = True,
+        quote = True
+    )
 
 
 async def status_handler(client: Client, msg: types.Message):
@@ -101,18 +98,14 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
         else '@BGMenfesBot'
     )
     mention = msg.from_user.mention
-    return await msg.reply(
-        text = """
-Halo {mention} [👋🏻](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)
-
-pesan mu gagal terkirim silahkan gunakan hastag:
-#BgGirl / #BgBoy Untuk Mencari Pasangan, Teman , Partner FWB
-#BgAsk Untuk Bertanya
-#BgCurhat Untuk Berbagi Cerita / Curhat.
-#BgSpill Untuk Spill Masalah / Pengalaman
-#BgFind Untuk Mencari Pasangan, Teman, Partner FWB.
-        """),
-        
+    return await msg.reply(config.gagalkirim_msg.format(
+        id = msg.from_user.id,
+        mention = mention,
+        username = username,
+        first_name = await anu.escapeHTML(first_name),
+        last_name = await anu.escapeHTML(last_name),
+        fullname = await anu.escapeHTML(fullname)
+    ), True, enums.ParseMode.HTML, disable_web_page_preview=True)
 
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
