@@ -1,5 +1,6 @@
 import config
 
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from pyrogram import Client, types, enums
 from plugins import Helper, Database
 
@@ -36,6 +37,11 @@ async def start_handler(client: Client, msg: types.Message):
         fullname = await helper.escapeHTML(fullname),
         disable_web_page_preview = True,
         quote = True
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [InlineKeyboardButton('Rules BGM', url="https://t.me/BGM_Update/8"), InlineKeyboardButton('About Menfes', url="https://t.me/BGM_Update/3")],
+            ]
+                
     )
 
 
