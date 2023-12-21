@@ -11,7 +11,7 @@ db_name = os.environ.get("DB_NAME", "Arab01")
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001537697834"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1002100850265"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1002070266863"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1002130415408"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "1948147616"))
