@@ -29,16 +29,17 @@ async def start_handler(client: Client, msg: types.Message):
         - {mention} Cari Mutualan Dom Depok @usn #BgGirl
         
         Support: @BGMenfes_Update
-        """
-),
+        """,
+        id = msg.from_user.id,
+        mention = mention,
+        username = username,
+        first_name = await anu.escapeHTML(first_name),
+        last_name = await anu.escapeHTML(last_name),
+        fullname = await anu.escapeHTML(fullname)),
         disable_web_page_preview = True,
         quote = True
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton('Rules BGM', url="https://t.me/BGM_Update/8"), InlineKeyboardButton('About Menfes', url="https://t.me/BGM_Update/3")],
-            ]
-                
-    )
+        
+        
 
 
 async def status_handler(client: Client, msg: types.Message):
