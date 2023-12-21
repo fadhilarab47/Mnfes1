@@ -111,14 +111,8 @@ pesan mu gagal terkirim silahkan gunakan hastag:
 #BgCurhat Untuk Berbagi Cerita / Curhat.
 #BgSpill Untuk Spill Masalah / Pengalaman
 #BgFind Untuk Mencari Pasangan, Teman, Partner FWB.
-        """,
-        id = msg.from_user.id,
-        mention = mention,
-        username = username,
-        first_name = await anu.escapeHTML(first_name),
-        last_name = await anu.escapeHTML(last_name),
-        fullname = await anu.escapeHTML(fullname)
-    ), True, enums.ParseMode.HTML, disable_web_page_preview=True)
+        """),
+        
 
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
