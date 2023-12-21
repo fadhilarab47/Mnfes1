@@ -16,7 +16,8 @@ async def start_handler(client: Client, msg: types.Message):
     )
     mention = msg.from_user.mention
     await msg.reply_text(
-        text = f"""Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)
+        text = f"""
+        Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)
         
         Ini adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:
         #BgGirl Untuk Cewek
@@ -28,13 +29,8 @@ async def start_handler(client: Client, msg: types.Message):
         - {mention} Cari Mutualan Dom Depok @usn #BgGirl
         
         Support: @BGMenfes_Update
-        """),
-        id = msg.from_user.id,
-        mention = mention,
-        username = username,
-        first_name = await helper.escapeHTML(first),
-        last_name = await helper.escapeHTML(last),
-        fullname = await helper.escapeHTML(fullname),
+        """
+),
         disable_web_page_preview = True,
         quote = True
         reply_markup=InlineKeyboardMarkup(
