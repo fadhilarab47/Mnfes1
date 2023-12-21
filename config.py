@@ -11,6 +11,7 @@ db_name = os.environ.get("DB_NAME", "doadmin")
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1002100850265"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1001537697834"))
+channel_3 = int(os.environ.get("CHANNEL_3", "-1002005957935"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1002130415408"))
 # =========================================================== #
 
@@ -47,15 +48,16 @@ pic_sugar_daddy = os.environ.get("PIC_SUGAR_DADDY", "https://telegra.ph//file/df
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat BG Menfes [😉](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess ya BG Menfes👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post BG Menfes base[✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg)\n\nIni adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#BgGirl Untuk Cewek\n#BgBoy Untuk Cowok\n#BgCurhat Untuk Curhat\n#BgFind Untuk Mencari Pasangan\n\nContoh:\n. {mention} Cari Mutualan Dom Depok #BgGirl\n\nContact @Dhilnihnge")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post BG Menfes base [✨](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg) .\n\nIni adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#BgGirl Untuk Cewek\n#BgBoy Untuk Cowok\n#BgCurhat Untuk Curhat\n#BgPap Untuk Mengirim Pap random kalian\n\nContoh:\n. {mention} Cari Mutualan Dom Depok #BgGirl\n\nSupport: @BGMenfes_update")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
-Halo {mention} [👋🏻](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg), pesan mu gagal terkirim silahkan gunakan hastag:
+Halo {mention} [👋🏻](https://telegra.ph//file/5ec20cb31185ce5c7c12b.jpg) 
 
+pesan mu gagal terkirim silahkan gunakan hastag:
 #BgGirl / #BgBoy Untuk Mencari Pasangan, Teman , Partner FWB
 #BgAsk Untuk Bertanya
 #BgCurhat Untuk Berbagi Cerita / Curhat.
 #BgSpill Untuk Spill Masalah / Pengalaman
-#BgFind Untuk Mencari Pasangan, Teman, Partner FWB.
+#BgPap Untuk Mengirim Pap random kalian.
 
 """)
