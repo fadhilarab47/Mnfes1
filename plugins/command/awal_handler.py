@@ -28,7 +28,7 @@ async def start_handler(client: Client, msg: types.Message):
         Support: @BGMenfes_Update"
         """,
         quote = True
-        InlineKeyboardMarkup(
+        reply_markup=InlineKeyboardMarkup(
             [InlineKeyboardButton('Rules Menfes', url="https://t.me/BGM_Update/8"), InlineKeyboardButton('About Menfes', url="https://t.me/BGM_Update/3")],),
     )
         
