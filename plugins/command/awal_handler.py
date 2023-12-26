@@ -4,7 +4,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram import Client, types, enums
 from plugins import Helper, Database
 
-async def start_handler(client: Client, msg: types.Message, context: CallbackContext):
+async def start_handler(client: Client, msg: types.Message):
     helper = Helper(client, msg)
     first = msg.from_user.first_name
     last = msg.from_user.last_name
@@ -24,13 +24,13 @@ async def start_handler(client: Client, msg: types.Message, context: CallbackCon
             first_name = await helper.escapeHTML(first),
             last_name = await helper.escapeHTML(last),
             fullname = await helper.escapeHTML(fullname),
-            reply_markup = InlineKeyboardMarkup([
+            ),
+        reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
             [InlineKeyboardButton('Top Up', url='https://t.me/BGMenfes_Update/20'), InlineKeyboardButton('GC Base', url='https://t.me/BGMenfes_Update/8')],
         ]),
-            ),
-        disable_web_page_preview = True,
-        quote = True
+        disable_web_page_preview=True,
+        quote=True
     )
 
 
