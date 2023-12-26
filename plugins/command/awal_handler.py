@@ -27,7 +27,7 @@ async def start_handler(client: Client, msg: types.Message):
             ),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
-            [InlineKeyboardButton('Top Up', url='https://t.me/BGMenfes_Update/20'), InlineKeyboardButton('GC Base', url='https://t.me/BGMenfes_Update/8')],
+            [InlineKeyboardButton('Top Up', url='https://t.me/Pixy_Update/20'), InlineKeyboardButton('Rules', url='https://t.me/Pixy_Update/8')],
         ]),
         disable_web_page_preview=True,
         quote=True
@@ -110,7 +110,12 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
         first_name = await anu.escapeHTML(first_name),
         last_name = await anu.escapeHTML(last_name),
         fullname = await anu.escapeHTML(fullname)
-    ), True, enums.ParseMode.HTML, disable_web_page_preview=True)
+    ), 
+       reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
+            [InlineKeyboardButton('Top Up', url='https://t.me/Pixy_Update/20'), InlineKeyboardButton('Rules', url='https://t.me/Pixy_Update/8')],
+        ]),                 
+       True, enums.ParseMode.HTML, disable_web_page_preview=True)
 
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
