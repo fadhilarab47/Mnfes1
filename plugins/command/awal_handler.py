@@ -4,7 +4,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram import Client, types, enums
 from plugins import Helper, Database
 
-async def start_handler(client: Client, msg: types.Message):
+async def start_handler(client: Client, msg: types.Message, context: CallbackContext):
     helper = Helper(client, msg)
     first = msg.from_user.first_name
     last = msg.from_user.last_name
