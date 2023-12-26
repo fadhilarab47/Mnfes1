@@ -9,7 +9,7 @@ db_url = os.environ.get("DB_URL", "mongodb+srv://doadmin:31pS5AO2y6v07G9D@db-mon
 db_name = os.environ.get("DB_NAME", "doadmin")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001665881786"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001598029743"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1002100850265"))
 channel_3 = int(os.environ.get("CHANNEL_3", "-1001571197486"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1002130415408"))
@@ -47,11 +47,11 @@ pic_gf_rent = os.environ.get("PIC_GF_RENT", "https://telegra.ph//file/983e3138a5
 pic_sugar_daddy = os.environ.get("PIC_SUGAR_DADDY", "https://telegra.ph//file/df87a56dfa94043c51572.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Pixy Base [😉](https://telegra.ph//file/b52849db161f0e56e3461.jpg)\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess di Pixy Base 👍")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post Pixy Menfes base [✨](https://telegra.ph//file/b52849db161f0e56e3461.jpg)\n\nIni adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#PixyGirl Untuk Cewek\n#PixyBoy Untuk Cowok\n#PixyCurhat Untuk Curhat\n#PixyPap Untuk Mengirim Pap random kalian\n\nContoh:\n. {mention} Cari Mutualan Dom Depok @fulann #PixyGirl\n\nSupport: @Pixy_Update")
+pesan_join = os.environ.get("PESAN_JOIN", "Hai {mention} Sobat Pixy Base [😉](https://telegra.ph//file/b52849db161f0e56e3461.jpg) .\n\nKamu Tidak dapat Mengirim Menfes , Harap Join Terllebih Dahulu Untuk Mengirim Menfess di Pixy Base 👍")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} hallo selamat datang dibot auto post Pixy Menfes base [✨](https://telegra.ph//file/b52849db161f0e56e3461.jpg) .\n\nIni adalah bot Menfes ya BG Menfes, semua pesan yang kamu kirim akan masuk ke channel secara anonim sesuai hastag:\n#PixyGirl Untuk Cewek\n#PixyBoy Untuk Cowok\n#PixyCurhat Untuk Curhat\n#PixyPap Untuk Mengirim Pap random kalian\n\nContoh:\n. {mention} Cari Mutualan Dom Depok @fulann #PixyGirl\n\nSupport: @Pixy_Update")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
-Halo {mention} [👋🏻](https://telegra.ph//file/b52849db161f0e56e3461.jpg) 
+Halo {mention} 
 
 pesan mu gagal terkirim silahkan gunakan hastag:
 #PixyGirl / #PixyBoy Untuk Mencari Pasangan, Teman , Partner FWB
