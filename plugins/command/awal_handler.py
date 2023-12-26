@@ -23,9 +23,14 @@ async def start_handler(client: Client, msg: types.Message):
             first_name = await helper.escapeHTML(first),
             last_name = await helper.escapeHTML(last),
             fullname = await helper.escapeHTML(fullname),
+            markup = InlineKeyboardMarkup([
+            [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
+            [InlineKeyboardButton('Top Up', url='https://t.me/BGMenfes_Update/20'), InlineKeyboardButton('GC Base', url='https://t.me/BGMenfes_Update/8')],
+        ]),
             ),
         disable_web_page_preview = True,
         quote = True
+        reply_markup=markup
     )
 
 
