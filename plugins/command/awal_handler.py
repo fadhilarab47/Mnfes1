@@ -14,6 +14,7 @@ async def start_handler(client: Client, msg: types.Message):
         if msg.from_user.username
         else '@BGMenfesbot'
     )
+    
     mention = msg.from_user.mention
     await msg.reply_text(
         text = config.start_msg.format(
@@ -23,14 +24,13 @@ async def start_handler(client: Client, msg: types.Message):
             first_name = await helper.escapeHTML(first),
             last_name = await helper.escapeHTML(last),
             fullname = await helper.escapeHTML(fullname),
-            markup = InlineKeyboardMarkup([
+            reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
             [InlineKeyboardButton('Top Up', url='https://t.me/BGMenfes_Update/20'), InlineKeyboardButton('GC Base', url='https://t.me/BGMenfes_Update/8')],
         ]),
             ),
         disable_web_page_preview = True,
         quote = True
-        reply_markup=markup
     )
 
 
