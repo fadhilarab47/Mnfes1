@@ -39,6 +39,7 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "200"))
 hastag = os.environ.get("HASTAG", "#PixyGirl #PixyBoy #PixyCurhat #PixySpill #PixyPap").replace(" ", "|").lower()
 # =========================================================== #
 
+start_photo = os.environ.get("START_PHOTO", "https://telegra.ph//file/b52849db161f0e56e3461.jpg")
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph//file/b1b084fdcc3254aa4c212.jpg")
 pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph//file/3db21c15c059d6a6080d1.jpg")
 pic_talent = os.environ.get("PIC_TALENT", "https://telegra.ph//file/31aa5b2804691ec04ed9c.jpg")
