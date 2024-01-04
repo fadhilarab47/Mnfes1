@@ -1,5 +1,6 @@
 import config
 
+from aiogram import types
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from pyrogram import Client, types, enums
 from plugins import Helper, Database
