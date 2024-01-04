@@ -14,25 +14,24 @@ async def start_handler(client: Client, msg: types.Message):
         if msg.from_user.username
         else '@BGMenfesbot'
     )
-    
     mention = msg.from_user.mention
-    await msg.reply_text(
-        text = config.start_msg.format(
-            id = msg.from_user.id,
-            mention = mention,
-            username = username,
-            first_name = await helper.escapeHTML(first),
-            last_name = await helper.escapeHTML(last),
-            fullname = await helper.escapeHTML(fullname),
-            ),
+    
+   await client.send_photo(
+        msg.chat.id,
+        photo=config.start_photo,
+        caption=config.start_msg.format(
+            id=msg.from_user.id,
+            mention=mention,
+            username=username,
+            first_name=await helper.escapeHTML(first),
+            last_name=await helper.escapeHTML(last),
+            fullname=await helper.escapeHTML(fullname),
+        ),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton('Dev', url='https://t.me/Dhilnihnge')],
-            [InlineKeyboardButton('Top Up', url='https://t.me/Pixy_Update/20'), InlineKeyboardButton('Rules', url='https://t.me/Pixy_Update/8')],
+            [InlineKeyboardButton('Owner', url='https://t.me/Dhilnihnge')],
+            [InlineKeyboardButton('Top Up Coin', url='https://t.me/Pixy_Update/20'), InlineKeyboardButton('Rules', url='https://t.me/Pixy_Update/8')],
         ]),
-        disable_web_page_preview=True,
-        quote=True
     )
-
 
 async def status_handler(client: Client, msg: types.Message):
     helper = Helper(client, msg)
